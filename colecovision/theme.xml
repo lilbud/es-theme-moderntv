@@ -1,0 +1,22 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../modern.xml</include>
+
+	<view name="system">			
+	</view>
+
+	<view name="basic">		
+	</view>
+	
+	<view name="detailed">		
+	</view>
+
+	<view name="basic, detailed, system, grid">
+	
+		<image name="logo">
+			<path>./system.svg</path>
+		</image>
+	
+	</view>
+	
+</theme>
