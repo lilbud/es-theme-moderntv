@@ -1,0 +1,35 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../modern.xml</include>
+
+	<view name="system">			
+	</view>
+
+	<view name="basic">		
+	</view>
+	
+	<view name="detailed">
+		<image name="md_image">
+			<pos>0.688 0.377</pos>
+			<maxSize>0.302 0.389</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+	</view>
+	
+		<text name="md_description, md_lbl_description, md_playcount, md_lbl_playcount, md_lbl_releasedate, md_lbl_players, md_players, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_genre, md_genre, md_lbl_lastplayed, md_lastplayed, md_lbl_rating">
+			<color>f0f0f0</color>
+			<pos>1 1</pos>
+			<fontSize>0.027</fontSize>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./assets/font.ttf</fontPath>
+		</text>
+
+	<view name="basic, detailed, system">
+	
+		<image name="logo">
+			<path>./system.svg</path>
+		</image>
+	
+	</view>
+	
+</theme>
