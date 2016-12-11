@@ -1,0 +1,267 @@
+<!--
+theme name:		Modern TV
+version:		1.0
+author:			Lilbud
+license:		creative commons CC-BY-NC-SA
+original asset color: 00f0ff
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<view name="system, basic, detailed">
+	
+		<image name="background" extra="true">
+			<path>./assets/bg.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+
+		<image name="logo">
+			<pos>0.023 0.015</pos>
+			<maxSize>0.348 0.081</maxSize>
+			<origin>0 0</origin>
+		</image>
+		
+		<helpsystem name="help">
+			<pos>0.012 0.96</pos>
+			<textColor>ffffffd0</textColor>
+			<iconColor>ffffffd0</iconColor>
+			<fontPath>./assets/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</helpsystem>
+		
+	</view>
+
+
+	<view name="system">
+	
+		<image name="Overlay_System" extra="true">
+			<path>./assets/overlay_system.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>f35e23</color>
+		</image>
+		
+	</view>
+
+    <view name="basic">
+
+		<image name="Overlay_Basic" extra="true">
+			<path>./assets/overlay_basic.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>f35e23</color>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.032 0.156</pos>
+			<size>0.934 0.708</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./assets/font.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<selectorColor>00000080</selectorColor>
+			<selectedColor>f35e23</selectedColor>
+			<primaryColor>f0f0f0</primaryColor>
+			<secondaryColor>c0c0c0</secondaryColor>
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>1.5</lineSpacing>
+			<!--<scrollSound>./assets/flipper.wav</scrollSound>-->
+		</textlist>
+
+	</view>
+
+	<view name="detailed">
+	
+		<image name="Overlay_Detailed" extra="true">
+			<path>./assets/overlay_detailed.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>f35e23</color>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.022 0.149</pos>
+			<size>0.349 0.704</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./assets/font.ttf</fontPath>
+			<fontSize>0.0275</fontSize>
+			<selectorColor>00000080</selectorColor>
+			<selectedColor>f35e23</selectedColor>
+			<primaryColor>f0f0f0</primaryColor>
+			<secondaryColor>c0c0c0</secondaryColor>
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>1.5</lineSpacing>
+			<!--<scrollSound>./assets/flipper.wav</scrollSound>-->
+		</textlist>
+		
+		
+
+<!--=================  METADATA  ===============================================-->
+		<text name="md_description, md_lbl_description, md_playcount, md_lbl_playcount, md_lbl_releasedate, md_lbl_players, md_players, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_genre, md_genre, md_lbl_lastplayed, md_lastplayed, md_lbl_rating">
+			<color>f0f0f0</color>
+			<pos>1 1</pos>
+			<fontSize>0.027</fontSize>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./assets/font.ttf</fontPath>
+		</text>
+		
+<!--=================  PLAYERS  ===============================================-->		
+		<image name="Players_Icon" extra="true">
+			<path>./assets/players.png</path>
+			<tile>false</tile>
+			<pos>0.419 0.164</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.046 0.045</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<text name="md_players">
+			<color>f0f0f0</color>
+			<pos>0.45 0.150</pos>
+			<size>0.04 0.032</size>
+		</text>
+		
+<!--=================  RELEASE DATE  ===============================================-->		
+		<image name="ReleaseDate_Icon" extra="true">
+			<path>./assets/released.png</path>
+			<tile>false</tile>
+			<pos>0.531 0.166</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<datetime name="md_releasedate">
+			<color>f0f0f0</color>
+			<pos>0.553 0.149</pos>
+			<size>0.136 0.035</size>
+			<fontSize>0.027</fontSize>
+			<fontPath>./assets/font.ttf</fontPath>
+		</datetime>
+		
+<!--=================  DEVELOPER  ===============================================-->		
+		<image name="Developer_Icon" extra="true">
+			<path>./assets/developer.png</path>
+			<tile>false</tile>
+			<pos>0.413 0.246</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<text name="md_developer">
+			<color>f0f0f0</color>
+			<pos>0.438 0.226</pos>
+			<size>0.247 0.041</size>
+		</text>
+		
+<!--=================  PUBLISHER  ===============================================-->		
+		<image name="Publisher_Icon" extra="true">
+			<path>./assets/publisher.png</path>
+			<tile>false</tile>
+			<pos>0.413 0.327</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<text name="md_publisher">
+			<color>f0f0f0</color>
+			<pos>0.438 0.306</pos>
+			<size>0.247 0.041</size>
+		</text>
+		
+<!--=================  GENRE  ===============================================-->		
+		<image name="Genre_Icon" extra="true">
+			<path>./assets/genre.png</path>
+			<tile>false</tile>
+			<pos>0.413 0.405</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<text name="md_genre">
+			<color>f0f0f0</color>
+			<pos>0.438 0.386</pos>
+			<size>0.247 0.041</size>
+		</text>
+		
+<!--=================  RATING  ===============================================-->		
+		<image name="Rating_Icon" extra="true">
+			<path>./assets/rating.png</path>
+			<tile>false</tile>
+			<pos>0.413 0.485</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<rating name="md_rating">
+			<pos>0.485 0.466</pos>
+			<size>0.295 0.038</size>
+			<filledPath>./assets/heart_full.png</filledPath>
+			<unfilledPath>./assets/heart_empty.png</unfilledPath>
+		</rating>
+		
+<!--=================  PLAY COUNT  ===============================================-->		
+		<image name="Play_Count_Icon" extra="true">
+			<path>./assets/play_count.png</path>
+			<tile>false</tile>
+			<pos>0.413 0.565</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<text name="md_playcount">
+			<color>ffffff</color>
+			<pos>0.434 0.544</pos>
+			<size>0.064 0.044</size>
+		</text>
+		
+<!--=================  LAST PLAYED  ===============================================-->		
+		<image name="Last_Played_Icon" extra="true">
+			<path>./assets/last_played.png</path>
+			<tile>false</tile>
+			<pos>0.529 0.565</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<datetime name="md_lastplayed">
+			<color>f0f0f0</color>
+			<pos>0.548 0.546</pos>
+			<size>0.138 0.040</size>
+		</datetime>
+		
+<!--=================  DESCRIPTION  ===============================================-->		
+		<text name="md_description">
+			<color>f0f0f0</color>
+			<pos>0.403 0.645</pos>
+			<size>0.567 0.222</size>
+		</text>		
+		
+<!--=================  BOX ART  ===============================================-->		
+		<image name="md_image">
+			<pos>0.840 0.368</pos>
+			<maxSize>0.263 0.454</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+	
+	</view>	
+
+	</theme>
